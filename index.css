@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px 0px 10px;
+    height: 10vh;
+    width: 10vw;
+}
+
+.first-section {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.logo {
+    height: 10p;
+    width: 10vw;
+    
+}
+
+.second-section {
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+
+.div-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 10vw;
+}
+.div-link a {
+    color: #000;
+    text-decoration: none;
+}
+.div-link:hover {
+    color: #000;
+
+    a {
+        color: gray;
+        
+    }
+}
+
+.search input {
+    /* border: 3px solid black; */
+    border-radius: 30px;
+    border: 2px #c25959;
+    background-color: rgb(228, 231, 230);
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    
+}
+.search input:hover{
+    border: 2px #be2626;
+    background-color: rgb(198, 255, 255);
+}
+
+
+.guidance-container {
+    display: flex;
+    background-color: #1A73E8;
+    color: #fff;
+    align-items: center;
+    
+    height: 10vh;
+    width: 100vw;
+}
+
+.guidance {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.thanks-container {
+    display: flex;
+    background-color: #E8F0FE;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+.thanks {
+    font-size: 15px;
+    font-weight: 50;
+    margin-left: 10px;
+     color: #1A73E8;
+}
+
+.content-section {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 20px 50px;
+}
+
+.content-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.content-paragraph {          
+    font-size: 20px;
+    font-weight: 50;
+    width: 500px;
+}
+
+.content-image img{
+    height: 250px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.next-section {
+    /* width: 100px;
+    height: 200px; */
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows:10fr 10fr 10fr;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.next {
+    
+     justify-content: space-around;
+}
+
