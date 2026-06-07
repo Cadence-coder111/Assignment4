@@ -13,11 +13,14 @@
     margin: 10px 0px 0px 10px;
     height: 10vh;
     width: 10vw;
+   
+    
 }
 
 .first-section {
     display: flex;
     gap: 10px;
+    background-color: #fff;
     
 }
 
@@ -83,7 +86,8 @@
     align-items: center;
     
     height: 10vh;
-    width: 100vw;
+    width: 100%;    
+       
 }
 
 .guidance {
@@ -97,7 +101,7 @@
     background-color: #E8F0FE;
     align-items: center;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
 }
 .thanks {
     font-size: 15px;
@@ -135,18 +139,369 @@
     margin-top: 20px;
 }
 
-.next-section {
-    /* width: 100px;
-    height: 200px; */
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows:10fr 10fr 10fr;
-    background-color: lightgray;
-    padding: 20px;
+ 
+.third-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
 }
 
-.next {
+.card {
+    height: 611px;
+    width: 403px;
+    background-color: #f5f6f7;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.card img {
+    margin-top: 62px;
+    margin-bottom: 40px;
+    margin-left: 29px;
+    border-radius: 25px;
+    width: 350px;
+    height: 200px;
     
-     justify-content: space-around;
 }
 
+.card h2 {
+    margin-bottom: 47px;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 34px;
+    
+}
+
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card p {
+    margin-bottom: 50px;
+    margin-left: 32px;
+    font-size: 18px;
+    line-height: 25px;
+
+
+}
+
+.card button {
+    margin-left: 100px;
+    text-align: center;
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    border: 2px solid #185abc;
+    font-size: 18px;
+    color: #185abc;
+    word-spacing: 0.5px;
+    background-color: white;
+}
+
+.fourth-section{
+    background-color: #f5f6f7;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.explore{
+    display: flex;
+    
+}
+
+
+
+.explore h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.explore p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 40px;
+    
+}
+
+.start-explore button{
+    margin-top: 40px;
+    
+}
+
+.start-explore  {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #185abc;
+    font-size: 20px;
+    color: #185abc;
+    word-spacing: 1px;
+    margin-top: 40px;
+    margin-left: 200px;
+    background-color: white;
+}
+
+.fifth-section{
+    display: flex;
+    gap: 20px;
+    background-color: #f5f6f7;
+    width: 100%;
+}
+
+.div1{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* margin-top: 50px; */
+
+}
+
+.div1 img {
+    margin-top: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.div1 h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.div1 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.div1 p{
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.div1 button  {
+    margin-left: 25px;
+    text-align: center;
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    border: 2px solid #185abc;
+    font-size: 18px;
+    color: #185abc;
+    word-spacing: 0.5px;
+    background-color: white;
+}
+
+.sixth-section{
+    
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.learning{
+    display: flex;
+    
+}
+
+
+
+.learning h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.learning p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 40px;
+    
+}
+
+.start-learning button{
+    margin-top: 40px;
+    
+}
+
+.start-learning  {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #185abc;
+    font-size: 20px;
+    color: #185abc;
+    word-spacing: 1px;
+    margin-top: 40px;
+    margin-left: 200px;
+    background-color: white;
+}
+
+.seventh-section{
+    display: flex;
+    gap: 20px;
+}
+
+.div2{
+    background-color: #f5f6f7;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.div2 img{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.course{
+    text-align: start;
+    color: #1A73E8;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.div2 h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.div2 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.div2 p{
+    font-weight: 100;
+    margin-bottom: 50px;
+    
+}
+
+.div2 button  {
+    margin-left: 25px;
+    text-align: center;
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    border: 2px solid #185abc;
+    font-size: 18px;
+    color: #185abc;
+    word-spacing: 0.5px;
+    background-color: white;
+}
+
+.eight-section{
+    background-color: #f5f6f7;
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.div3 {
+    display: flex;
+}
+
+.div3  {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 40px;
+
+}
+
+.div3 p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.div3 img{
+    width: 300px;
+    height: 150px;
+}
+
+.div3 button {
+    margin-left: 405px;
+    margin-top: 50px;
+    text-align: center;
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    border: 2px solid #185abc;
+    font-size: 18px;
+    color: #185abc;
+    word-spacing: 0.5px;
+    background-color: white;
+}
+
+.ninth-section{
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+}
+
+.Baseline h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;    
+}
+
+.Baseline p{
+    font-size: 20px;
+}
+
+.Baseline button {
+    margin-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #185abc;
+    font-size: 18px;
+    color: #185abc;
+    word-spacing: 0.5px;
+    background-color: white;
+}
+
+.Baseline a {
+    color: #185abc;
+    text-decoration: none;
+}
+
+.ninth-section h3{
+    font-size: 23px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.ninth-section a{
+    color: #000;
+    text-decoration: none;
+}
+
+.ninth-section p{
+    margin-bottom: 30px;
+}
