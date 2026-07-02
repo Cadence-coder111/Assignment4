@@ -933,7 +933,7 @@ select{
 
 
    /* MOBILE PHONES (767px and below) */
-@media (max-width: 767px) {
+@media (max-width: 769px) {
 
     * {
         overflow-x: hidden;
